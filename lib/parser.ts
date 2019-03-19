@@ -105,7 +105,7 @@ const config = (() => {
         options.devMode = true;
         console.log(`Option attachToDebug is set to true. Option --devMode is set true as well !`)
         if (!options.port) {
-            logWarn(`Default appium server port 4732!`);
+            logWarn(`Default appium server port 4723`;
             logWarn(`In order to change it use --port option!`);
         }
     }
